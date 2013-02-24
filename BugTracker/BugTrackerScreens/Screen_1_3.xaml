@@ -1,0 +1,36 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:pi="http://schemas.microsoft.com/prototyping/2010/interactivity" x:Name="BugTrackerScreens_Screen_1_3_Name"
+	mc:Ignorable="d"
+	x:Class="BugTrackerScreens.Screen_1_3"
+	Width="482.5" Height="356">
+
+	<Grid x:Name="LayoutRoot" Background="White" RenderTransformOrigin="0.325,0.846">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+		</Grid.RowDefinitions>
+		<TextBlock HorizontalAlignment="Left" Margin="33,24.499,0,0" Style="{DynamicResource TitleLeft-Sketch}" Text="Rapportage maken" VerticalAlignment="Top" Height="49.393" Width="262.63"/>
+		<Button Content="Genereren" HorizontalAlignment="Left" Margin="354.64,308.337,0,-148.794" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="95.5" Height="23.464" RenderTransformOrigin="0.622,-6.203"/>
+		<CheckBox Content="Open" HorizontalAlignment="Left" Margin="39,233.544,0,-74" Style="{DynamicResource CheckBox-Sketch}" VerticalAlignment="Top" IsChecked="True" Height="23.463" Width="52.327"/>
+		<CheckBox Content="Assigned" HorizontalAlignment="Left" Margin="39,262.007,0,-102.463" Style="{DynamicResource CheckBox-Sketch}" VerticalAlignment="Top" IsChecked="True" Height="23.463" Width="78.057"/>
+		<CheckBox Content="In Development" HorizontalAlignment="Left" Margin="191,262.007,0,-102.463" Style="{DynamicResource CheckBox-Sketch}" VerticalAlignment="Top" IsChecked="True" Height="23.463" Width="121.733"/>
+		<CheckBox Content="Evaluate" HorizontalAlignment="Left" Margin="191,233.544,0,-74" Style="{DynamicResource CheckBox-Sketch}" VerticalAlignment="Top" IsChecked="True" Height="23.463" Width="73.507"/>
+		<CheckBox Content="Closed" HorizontalAlignment="Left" Margin="354.64,233.544,0,-74" Style="{DynamicResource CheckBox-Sketch}" Width="63.513"/>
+		<TextBlock HorizontalAlignment="Left" Margin="33,213.787,0,-50.537" Style="{DynamicResource TextBlock-Sketch}" Text="Status:" VerticalAlignment="Top" Height="19.757" Width="43.797"/>
+		<Button Content="&lt; Terug" HorizontalAlignment="Left" Margin="33,308.338,0,-148.794" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="75" Height="23.463">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pi:NavigateBackAction/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+		<TextBlock HorizontalAlignment="Left" Margin="33,149.403,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Versie:" VerticalAlignment="Top" Height="19.757" Width="39.183"/>
+		<ComboBox HorizontalAlignment="Left" Margin="33,173.007,0,-19.463" Style="{DynamicResource ComboBox-Sketch}" VerticalAlignment="Top" Width="207.14" Height="29.463"/>
+		<TextBlock HorizontalAlignment="Left" Margin="262,153.25,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Prioriteit:" VerticalAlignment="Top" Height="19.757" Width="66.183"/>
+		<ComboBox HorizontalAlignment="Left" Margin="262,173.007,0,-19.463" Style="{DynamicResource ComboBox-Sketch}" VerticalAlignment="Top" Width="188.14" Height="29.463"/>
+		<TextBlock HorizontalAlignment="Left" Margin="33,83.892,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Zoekterm:" VerticalAlignment="Top" Height="19.757" Width="58.327"/>
+		<TextBox HorizontalAlignment="Left" Height="25" Margin="33,103.649,0,0" Style="{DynamicResource TextBox-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" Width="417.14"/>
+	</Grid>
+</UserControl>

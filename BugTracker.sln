@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BugTracker", "BugTracker\BugTracker.csproj", "{efe5c166-5835-4fbd-bbba-c3ca4df75256}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BugTrackerScreens", "BugTracker\BugTrackerScreens\BugTrackerScreens.csproj", "{f7985243-525e-466b-a620-86c8ef22894a}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFE5C166-5835-4FBD-BBBA-C3CA4DF75256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFE5C166-5835-4FBD-BBBA-C3CA4DF75256}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFE5C166-5835-4FBD-BBBA-C3CA4DF75256}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFE5C166-5835-4FBD-BBBA-C3CA4DF75256}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7985243-525E-466B-A620-86C8EF22894A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7985243-525E-466B-A620-86C8EF22894A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7985243-525E-466B-A620-86C8EF22894A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7985243-525E-466B-A620-86C8EF22894A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
