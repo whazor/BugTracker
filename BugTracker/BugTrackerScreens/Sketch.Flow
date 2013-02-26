@@ -29,37 +29,56 @@
     </Screen>
     <Screen>
       <Type>Navigation</Type>
-      <ClassName>BugTrackerScreens.Screen_1_2</ClassName>
-      <DisplayName>BugToevoegen</DisplayName>
-      <FileName>Screen_1_2.xaml</FileName>
-      <Annotations />
-      <Position>
-        <X>323</X>
-        <Y>8</Y>
-      </Position>
-      <VisualTag>0</VisualTag>
-    </Screen>
-    <Screen>
-      <Type>Navigation</Type>
       <ClassName>BugTrackerScreens.Screen_1_3</ClassName>
       <DisplayName>RapportageBouwen</DisplayName>
-      <FileName>Screen_1_3.xaml</FileName>
-      <Annotations />
+      <FileName>RapportBouwen.xaml</FileName>
+      <Annotations>
+        <Annotation>
+          <Id />
+          <Text>Verbetering op basis van feedback:
+
+- Zoektermveld toegevoegd</Text>
+          <Top>103.649</Top>
+          <Left>464.796</Left>
+          <Author>Nanne</Author>
+          <AuthorInitials>NW</AuthorInitials>
+          <SerialNumber>1</SerialNumber>
+          <VisibleAtRuntime>true</VisibleAtRuntime>
+          <TimeStamp>2013-02-26T17:50:20</TimeStamp>
+        </Annotation>
+      </Annotations>
       <Position>
         <X>325</X>
         <Y>67</Y>
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>BugTrackerScreens.Screen_1_2</ClassName>
+      <DisplayName>BugToevoegen</DisplayName>
+      <FileName>BugToevoegen.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>392</X>
+        <Y>-9</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Composition</Type>
+      <ClassName>BugTrackerScreens.Screen_2</ClassName>
+      <DisplayName>Layout</DisplayName>
+      <FileName>Layout.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>250</X>
+        <Y>-27</Y>
+      </Position>
+      <VisualTag>1</VisualTag>
+    </Screen>
   </Screens>
   <Connections>
-    <Connection>
-      <Source>BugTrackerScreens.Screen_1_1</Source>
-      <Target>BugTrackerScreens.Screen_1_2</Target>
-      <Type>Navigation</Type>
-      <TransitionType>Fade</TransitionType>
-      <VisualTag>0</VisualTag>
-    </Connection>
     <Connection>
       <Source>BugTrackerScreens.Screen_1_1</Source>
       <Target>BugTrackerScreens.Screen_1_3</Target>
@@ -74,6 +93,41 @@
       <TransitionType>Fade</TransitionType>
       <VisualTag>0</VisualTag>
     </Connection>
+    <Connection>
+      <Source>BugTrackerScreens.Screen_1_1</Source>
+      <Target>BugTrackerScreens.Screen_1_2</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BugTrackerScreens.Screen_1_2</Source>
+      <Target>BugTrackerScreens.Screen_2</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BugTrackerScreens.Screen_1_1</Source>
+      <Target>BugTrackerScreens.Screen_2</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BugTrackerScreens.Screen_1_3</Source>
+      <Target>BugTrackerScreens.Screen_2</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BugTrackerScreens.Screen_1</Source>
+      <Target>BugTrackerScreens.Screen_2</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
   </Connections>
   <PrototypeRevision>0</PrototypeRevision>
   <BrandingText>Microsoft SketchFlow Prototype</BrandingText>
@@ -82,7 +136,7 @@
     <HideAnnotationAndInk>false</HideAnnotationAndInk>
     <DisableInking>false</DisableInking>
     <HideDesignTimeAnnotations>false</HideDesignTimeAnnotations>
-    <ShowDesignTimeAnnotationsAtStart>false</ShowDesignTimeAnnotationsAtStart>
+    <ShowDesignTimeAnnotationsAtStart>true</ShowDesignTimeAnnotationsAtStart>
   </RuntimeOptions>
   <VisualTags>
     <VisualTag>
@@ -119,10 +173,10 @@
     </VisualTag>
   </VisualTags>
   <ViewState>
-    <Zoom>1.25</Zoom>
+    <Zoom>1.5</Zoom>
     <Center>
-      <X>244.41256229431119</X>
-      <Y>-13.474295805739457</Y>
+      <X>333.90225601820617</X>
+      <Y>35.204753495217119</Y>
     </Center>
   </ViewState>
 </Data>

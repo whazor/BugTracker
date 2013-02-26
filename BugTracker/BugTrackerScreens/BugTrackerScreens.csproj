@@ -66,11 +66,14 @@
     <Compile Include="Screen_1_1.xaml.cs">
       <DependentUpon>Screen_1_1.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Screen_1_2.xaml.cs">
-      <DependentUpon>Screen_1_2.xaml</DependentUpon>
+    <Compile Include="BugToevoegen.xaml.cs">
+      <DependentUpon>BugToevoegen.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Screen_1_3.xaml.cs">
-      <DependentUpon>Screen_1_3.xaml</DependentUpon>
+    <Compile Include="RapportBouwen.xaml.cs">
+      <DependentUpon>RapportBouwen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layout.xaml.cs">
+      <DependentUpon>Layout.xaml</DependentUpon>
     </Compile>
     <Page Include="Screen_1.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -80,11 +83,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Screen_1_2.xaml">
+    <Page Include="BugToevoegen.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Screen_1_3.xaml">
+    <Page Include="RapportBouwen.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Layout.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -92,6 +99,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Resource Include="bug.png" />
     <Resource Include="Fonts\BuxtonSketch.ttf" />
     <Resource Include="Fonts\SketchFlow Print.ttf" />
     <Resource Include="Fonts\SegoeMarker.ttf" />
