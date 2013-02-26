@@ -9,7 +9,7 @@
 
 	<Grid x:Name="LayoutRoot" Background="White">
 		<TextBlock HorizontalAlignment="Left" Margin="40,23.606,0,0" Style="{DynamicResource TitleLeft-Sketch}" Text="Product kiezen" VerticalAlignment="Top"/>
-		<ListBox HorizontalAlignment="Left" Height="340" Margin="40,77.999,0,0" Style="{DynamicResource ListBox-Sketch}" VerticalAlignment="Top" Width="544" RenderTransformOrigin="0.42,0.43">
+		<ListBox HorizontalAlignment="Left" Height="304.826" Margin="40,77.999,0,0" Style="{DynamicResource ListBox-Sketch}" VerticalAlignment="Top" Width="544" RenderTransformOrigin="0.42,0.43">
 			<Button Content="Windows" Style="{DynamicResource Button-Sketch}" Width="534" Height="56.463">
 				<i:Interaction.Triggers>
 					<i:EventTrigger EventName="Click">
@@ -32,5 +32,12 @@
 				</i:Interaction.Triggers>
 			</Button>
 		</ListBox>
+		<Button Content="&lt; Terug" HorizontalAlignment="Left" Margin="40,0,0,10" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Bottom" Width="75" Height="30.463">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pi:NavigateBackAction/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
 	</Grid>
 </UserControl>
