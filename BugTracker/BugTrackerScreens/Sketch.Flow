@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SchemaVersion="2">
   <SketchFlowGuid>0241750f-c05d-4d1a-b6f0-b0ebd1847b3c</SketchFlowGuid>
-  <StartScreen>BugTrackerScreens.Screen_1</StartScreen>
+  <StartScreen>BugTrackerScreens.Copy_of_ProductKiezer</StartScreen>
   <Screens>
     <Screen>
       <Type>Navigation</Type>
       <ClassName>BugTrackerScreens.Screen_1</ClassName>
       <DisplayName>ProductKiezer</DisplayName>
-      <FileName>Screen_1.xaml</FileName>
+      <FileName>ProductKiezer.xaml</FileName>
       <Annotations />
       <Position>
-        <X>125</X>
-        <Y>-18</Y>
+        <X>49</X>
+        <Y>-4</Y>
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
@@ -19,7 +19,7 @@
       <Type>Navigation</Type>
       <ClassName>BugTrackerScreens.Screen_1_1</ClassName>
       <DisplayName>Bugs</DisplayName>
-      <FileName>Screen_1_1.xaml</FileName>
+      <FileName>Bugs_Algemeen.xaml</FileName>
       <Annotations />
       <Position>
         <X>123</X>
@@ -77,6 +77,42 @@
       </Position>
       <VisualTag>1</VisualTag>
     </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>BugTrackerScreens.Copy_of_ProductKiezer</ClassName>
+      <DisplayName>PersoonKiezer</DisplayName>
+      <FileName>RolKiezer.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>-109</X>
+        <Y>-65</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>BugTrackerScreens.ProductKiezer_klant</ClassName>
+      <DisplayName>ProductKiezer_klant</DisplayName>
+      <FileName>ProductKiezer_klant.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>-124</X>
+        <Y>44</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>BugTrackerScreens.Copy_of_Bugs</ClassName>
+      <DisplayName>Bugs_klant</DisplayName>
+      <FileName>Bugs_Klant.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>123</X>
+        <Y>73</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
   </Screens>
   <Connections>
     <Connection>
@@ -123,6 +159,62 @@
     </Connection>
     <Connection>
       <Source>BugTrackerScreens.Screen_1</Source>
+      <Target>BugTrackerScreens.Screen_2</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BugTrackerScreens.Copy_of_ProductKiezer</Source>
+      <Target>BugTrackerScreens.Screen_1</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BugTrackerScreens.Copy_of_ProductKiezer</Source>
+      <Target>BugTrackerScreens.ProductKiezer_klant</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BugTrackerScreens.Copy_of_Bugs</Source>
+      <Target>BugTrackerScreens.Screen_1_3</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BugTrackerScreens.Copy_of_Bugs</Source>
+      <Target>BugTrackerScreens.Screen_1_2</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BugTrackerScreens.ProductKiezer_klant</Source>
+      <Target>BugTrackerScreens.Copy_of_Bugs</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BugTrackerScreens.Copy_of_ProductKiezer</Source>
+      <Target>BugTrackerScreens.Screen_2</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BugTrackerScreens.ProductKiezer_klant</Source>
+      <Target>BugTrackerScreens.Screen_2</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BugTrackerScreens.Copy_of_Bugs</Source>
       <Target>BugTrackerScreens.Screen_2</Target>
       <Type>Composition</Type>
       <TransitionType>None</TransitionType>
@@ -175,8 +267,8 @@
   <ViewState>
     <Zoom>1.5</Zoom>
     <Center>
-      <X>333.90225601820617</X>
-      <Y>35.204753495217119</Y>
+      <X>137.42526269189776</X>
+      <Y>25.875879470690922</Y>
     </Center>
   </ViewState>
 </Data>

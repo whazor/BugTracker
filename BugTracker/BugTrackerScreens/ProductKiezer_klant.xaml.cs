@@ -14,11 +14,11 @@ using System.Windows.Shapes;
 namespace BugTrackerScreens
 {
 	/// <summary>
-	/// Interaction logic for Screen_1_1.xaml
+	/// Interaction logic for ProductKiezer_klant.xaml
 	/// </summary>
-	public partial class Screen_1_1 : UserControl
+	public partial class ProductKiezer_klant : UserControl
 	{
-		public Screen_1_1()
+		public ProductKiezer_klant()
 		{
 			this.InitializeComponent();
 		}

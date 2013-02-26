@@ -60,11 +60,20 @@
     <Reference Include="Microsoft.Expression.Prototyping.SketchControls" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Screen_1.xaml.cs">
-      <DependentUpon>Screen_1.xaml</DependentUpon>
+    <Compile Include="Bugs_Klant.xaml.cs">
+      <DependentUpon>Bugs_Klant.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Screen_1_1.xaml.cs">
-      <DependentUpon>Screen_1_1.xaml</DependentUpon>
+    <Compile Include="RolKiezer.xaml.cs">
+      <DependentUpon>RolKiezer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ProductKiezer_klant.xaml.cs">
+      <DependentUpon>ProductKiezer_klant.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ProductKiezer.xaml.cs">
+      <DependentUpon>ProductKiezer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Bugs_Algemeen.xaml.cs">
+      <DependentUpon>Bugs_Algemeen.xaml</DependentUpon>
     </Compile>
     <Compile Include="BugToevoegen.xaml.cs">
       <DependentUpon>BugToevoegen.xaml</DependentUpon>
@@ -75,11 +84,23 @@
     <Compile Include="Layout.xaml.cs">
       <DependentUpon>Layout.xaml</DependentUpon>
     </Compile>
-    <Page Include="Screen_1.xaml">
+    <Page Include="Bugs_Klant.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Screen_1_1.xaml">
+    <Page Include="RolKiezer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ProductKiezer_klant.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ProductKiezer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Bugs_Algemeen.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
