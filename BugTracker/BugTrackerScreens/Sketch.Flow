@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SchemaVersion="2">
   <SketchFlowGuid>0241750f-c05d-4d1a-b6f0-b0ebd1847b3c</SketchFlowGuid>
-  <StartScreen>BugTrackerScreens.Screen_1</StartScreen>
+  <StartScreen>BugTrackerScreens.Copy_of_ProductKiezer</StartScreen>
   <Screens>
     <Screen>
       <Type>Navigation</Type>
@@ -51,6 +51,18 @@
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>BugTrackerScreens.Copy_of_ProductKiezer</ClassName>
+      <DisplayName>PersoonKiezer</DisplayName>
+      <FileName>Copy_of_ProductKiezer.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>-41</X>
+        <Y>-21</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
   </Screens>
   <Connections>
     <Connection>
@@ -70,6 +82,13 @@
     <Connection>
       <Source>BugTrackerScreens.Screen_1</Source>
       <Target>BugTrackerScreens.Screen_1_1</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BugTrackerScreens.Copy_of_ProductKiezer</Source>
+      <Target>BugTrackerScreens.Screen_1</Target>
       <Type>Navigation</Type>
       <TransitionType>Fade</TransitionType>
       <VisualTag>0</VisualTag>
