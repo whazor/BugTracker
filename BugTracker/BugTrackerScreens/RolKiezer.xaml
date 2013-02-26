@@ -1,0 +1,32 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:pi="http://schemas.microsoft.com/prototyping/2010/interactivity" xmlns:local="clr-namespace:BugTrackerScreens" x:Name="BugTrackerScreens_Screen_1_Name"
+	mc:Ignorable="d"
+	x:Class="BugTrackerScreens.Copy_of_ProductKiezer"
+	Width="683" Height="437">
+
+	<Grid x:Name="LayoutRoot" Background="White">
+		<local:Screen_2 d:IsPrototypingComposition="True"/>
+		<TextBlock HorizontalAlignment="Left" Margin="123,23.606,0,0" Style="{DynamicResource TitleLeft-Sketch}" VerticalAlignment="Top" Text="Welke rol heb je?"/>
+		<ListBox Margin="123,77.999,16,19.001" Style="{DynamicResource ListBox-Sketch}" RenderTransformOrigin="0.42,0.43">
+			<Button x:Name="___Button___Developer_" Content="Developer" Style="{DynamicResource Button-Sketch}" Width="534" Height="56.463"/>
+			<Button x:Name="___Button___Manager_" Content="Manager" Style="{DynamicResource Button-Sketch}" Width="534" Height="56.463"/>
+			<Button x:Name="___Button___Klant_" Content="Klant" Style="{DynamicResource Button-Sketch}" Width="534" Height="56.463">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="Click">
+						<pi:NavigateToScreenAction TargetScreen="BugTrackerScreens.ProductKiezer_klant"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</Button>
+			<Button x:Name="___Button___Geen_voorkeur" Content="Geen voorkeur" Style="{DynamicResource Button-Sketch}" Width="534" Height="56.463">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="Click">
+						<pi:NavigateToScreenAction TargetScreen="BugTrackerScreens.Screen_1"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</Button>
+		</ListBox>
+	</Grid>
+</UserControl>
