@@ -60,8 +60,14 @@
     <Reference Include="Microsoft.Expression.Prototyping.SketchControls" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Copy_of_Bugs.xaml.cs">
+      <DependentUpon>Copy_of_Bugs.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Copy_of_ProductKiezer.xaml.cs">
       <DependentUpon>Copy_of_ProductKiezer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ProductKiezer_klant.xaml.cs">
+      <DependentUpon>ProductKiezer_klant.xaml</DependentUpon>
     </Compile>
     <Compile Include="Screen_1.xaml.cs">
       <DependentUpon>Screen_1.xaml</DependentUpon>
@@ -75,7 +81,15 @@
     <Compile Include="Screen_1_3.xaml.cs">
       <DependentUpon>Screen_1_3.xaml</DependentUpon>
     </Compile>
+    <Page Include="Copy_of_Bugs.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Copy_of_ProductKiezer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ProductKiezer_klant.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

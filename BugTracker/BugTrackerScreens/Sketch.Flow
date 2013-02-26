@@ -10,8 +10,8 @@
       <FileName>Screen_1.xaml</FileName>
       <Annotations />
       <Position>
-        <X>125</X>
-        <Y>-18</Y>
+        <X>49</X>
+        <Y>-4</Y>
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
@@ -58,8 +58,32 @@
       <FileName>Copy_of_ProductKiezer.xaml</FileName>
       <Annotations />
       <Position>
-        <X>-41</X>
-        <Y>-21</Y>
+        <X>-109</X>
+        <Y>-65</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>BugTrackerScreens.ProductKiezer_klant</ClassName>
+      <DisplayName>ProductKiezer_klant</DisplayName>
+      <FileName>ProductKiezer_klant.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>-124</X>
+        <Y>44</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>BugTrackerScreens.Copy_of_Bugs</ClassName>
+      <DisplayName>Bugs_klant</DisplayName>
+      <FileName>Copy_of_Bugs.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>123</X>
+        <Y>73</Y>
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
@@ -89,6 +113,34 @@
     <Connection>
       <Source>BugTrackerScreens.Copy_of_ProductKiezer</Source>
       <Target>BugTrackerScreens.Screen_1</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BugTrackerScreens.Copy_of_ProductKiezer</Source>
+      <Target>BugTrackerScreens.ProductKiezer_klant</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BugTrackerScreens.Copy_of_Bugs</Source>
+      <Target>BugTrackerScreens.Screen_1_3</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BugTrackerScreens.Copy_of_Bugs</Source>
+      <Target>BugTrackerScreens.Screen_1_2</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BugTrackerScreens.ProductKiezer_klant</Source>
+      <Target>BugTrackerScreens.Copy_of_Bugs</Target>
       <Type>Navigation</Type>
       <TransitionType>Fade</TransitionType>
       <VisualTag>0</VisualTag>
@@ -140,8 +192,8 @@
   <ViewState>
     <Zoom>1.25</Zoom>
     <Center>
-      <X>244.41256229431119</X>
-      <Y>-13.474295805739457</Y>
+      <X>81.949937946162223</X>
+      <Y>55.436625732064762</Y>
     </Center>
   </ViewState>
 </Data>

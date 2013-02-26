@@ -12,7 +12,13 @@
 		<ListBox HorizontalAlignment="Left" Height="340" Margin="40,77.999,0,0" Style="{DynamicResource ListBox-Sketch}" VerticalAlignment="Top" Width="544" RenderTransformOrigin="0.42,0.43">
 			<Button x:Name="___Button___Developer_" Content="Developer" Style="{DynamicResource Button-Sketch}" Width="534" Height="56.463"/>
 			<Button x:Name="___Button___Manager_" Content="Manager" Style="{DynamicResource Button-Sketch}" Width="534" Height="56.463"/>
-			<Button x:Name="___Button___Klant_" Content="Klant" Style="{DynamicResource Button-Sketch}" Width="534" Height="56.463"/>
+			<Button x:Name="___Button___Klant_" Content="Klant" Style="{DynamicResource Button-Sketch}" Width="534" Height="56.463">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="Click">
+						<pi:NavigateToScreenAction TargetScreen="BugTrackerScreens.ProductKiezer_klant"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</Button>
 			<Button x:Name="___Button___Geen_voorkeur" Content="Geen voorkeur" Style="{DynamicResource Button-Sketch}" Width="534" Height="56.463">
 				<i:Interaction.Triggers>
 					<i:EventTrigger EventName="Click">
