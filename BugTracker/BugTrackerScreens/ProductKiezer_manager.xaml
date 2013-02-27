@@ -11,9 +11,27 @@
 		<local:Screen_2 d:IsPrototypingComposition="True"/>
 		<TextBlock HorizontalAlignment="Left" Margin="124,22.606,0,0" Style="{DynamicResource TitleLeft-Sketch}" Text="Product kiezen" VerticalAlignment="Top"/>
 		<ListBox Margin="124,76.999,20,60.175" Style="{DynamicResource ListBox-Sketch}" RenderTransformOrigin="0.42,0.43">
-			<Button Content="Windows" Style="{DynamicResource Button-Sketch}" Width="534" Height="56.463"/>
-			<Button Content="Office" Style="{DynamicResource Button-Sketch}" Width="534" Height="56.463"/>
-			<Button Content="Visual Studio" Style="{DynamicResource Button-Sketch}" Width="534" Height="56.463"/>
+			<Button Content="Windows" Style="{DynamicResource Button-Sketch}" Width="534" Height="56.463">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="Click">
+						<pi:NavigateToScreenAction TargetScreen="BugTrackerScreens.Bugs_manager"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</Button>
+			<Button Content="Office" Style="{DynamicResource Button-Sketch}" Width="534" Height="56.463">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="Click">
+						<pi:NavigateToScreenAction TargetScreen="BugTrackerScreens.Bugs_manager"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</Button>
+			<Button Content="Visual Studio" Style="{DynamicResource Button-Sketch}" Width="534" Height="56.463">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="Click">
+						<pi:NavigateToScreenAction TargetScreen="BugTrackerScreens.Bugs_manager"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</Button>
 		</ListBox>
 		<Button Content="&lt; Terug" HorizontalAlignment="Left" Margin="124,0,0,14" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Bottom" Width="75" Height="30.463">
 			<i:Interaction.Triggers>
