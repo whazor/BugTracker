@@ -63,6 +63,9 @@
     <Compile Include="Bugs_Klant.xaml.cs">
       <DependentUpon>Bugs_Klant.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Copy_of_Bugs_klant.xaml.cs">
+      <DependentUpon>Copy_of_Bugs_klant.xaml</DependentUpon>
+    </Compile>
     <Compile Include="RolKiezer.xaml.cs">
       <DependentUpon>RolKiezer.xaml</DependentUpon>
     </Compile>
@@ -85,6 +88,10 @@
       <DependentUpon>Layout.xaml</DependentUpon>
     </Compile>
     <Page Include="Bugs_Klant.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Copy_of_Bugs_klant.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

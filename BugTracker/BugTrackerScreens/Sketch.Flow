@@ -108,8 +108,20 @@
       <FileName>Bugs_Klant.xaml</FileName>
       <Annotations />
       <Position>
-        <X>123</X>
-        <Y>73</Y>
+        <X>129</X>
+        <Y>99</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>BugTrackerScreens.Copy_of_Bugs_klant</ClassName>
+      <DisplayName>Bugs_developer</DisplayName>
+      <FileName>Copy_of_Bugs_klant.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>126</X>
+        <Y>154</Y>
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
@@ -180,13 +192,6 @@
     </Connection>
     <Connection>
       <Source>BugTrackerScreens.Copy_of_Bugs</Source>
-      <Target>BugTrackerScreens.Screen_1_3</Target>
-      <Type>Navigation</Type>
-      <TransitionType>Fade</TransitionType>
-      <VisualTag>0</VisualTag>
-    </Connection>
-    <Connection>
-      <Source>BugTrackerScreens.Copy_of_Bugs</Source>
       <Target>BugTrackerScreens.Screen_1_2</Target>
       <Type>Navigation</Type>
       <TransitionType>Fade</TransitionType>
@@ -215,6 +220,20 @@
     </Connection>
     <Connection>
       <Source>BugTrackerScreens.Copy_of_Bugs</Source>
+      <Target>BugTrackerScreens.Screen_2</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BugTrackerScreens.Copy_of_Bugs_klant</Source>
+      <Target>BugTrackerScreens.Screen_1_2</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BugTrackerScreens.Copy_of_Bugs_klant</Source>
       <Target>BugTrackerScreens.Screen_2</Target>
       <Type>Composition</Type>
       <TransitionType>None</TransitionType>
@@ -265,10 +284,10 @@
     </VisualTag>
   </VisualTags>
   <ViewState>
-    <Zoom>1.5</Zoom>
+    <Zoom>0.75</Zoom>
     <Center>
-      <X>137.42526269189776</X>
-      <Y>25.875879470690922</Y>
+      <X>65.452502083542925</X>
+      <Y>76.195238095238111</Y>
     </Center>
   </ViewState>
 </Data>
