@@ -18,7 +18,8 @@
   </xs:complexType>
   <xs:complexType name="Item">
     <xs:attribute name="Omschrijving" type="xs:string" />
-    <xs:attribute blend:FormatParameters="2" name="ID" type="xs:double" />
+    <xs:attribute name="ID" type="xs:double" />
     <xs:attribute blend:FormatParameters="1" name="Prioriteit" type="xs:double" />
+    <xs:attribute blend:FormatParameters="1" name="Status" type="xs:double" />
   </xs:complexType>
 </xs:schema>

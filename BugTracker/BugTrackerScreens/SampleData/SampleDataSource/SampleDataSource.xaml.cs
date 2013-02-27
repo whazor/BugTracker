@@ -49,6 +49,10 @@ namespace Expression.Blend.SampleData.SampleDataSource
 		}
 	}
 
+	public class ItemCollection : System.Collections.ObjectModel.ObservableCollection<Item>
+	{ 
+	}
+
 	public class Item : System.ComponentModel.INotifyPropertyChanged
 	{
 		public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
@@ -117,10 +121,25 @@ namespace Expression.Blend.SampleData.SampleDataSource
 				}
 			}
 		}
-	}
 
-	public class ItemCollection : System.Collections.ObjectModel.ObservableCollection<Item>
-	{ 
+		private double _Status = 0;
+
+		public double Status
+		{
+			get
+			{
+				return this._Status;
+			}
+
+			set
+			{
+				if (this._Status != value)
+				{
+					this._Status = value;
+					this.OnPropertyChanged("Status");
+				}
+			}
+		}
 	}
 #endif
 }

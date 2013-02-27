@@ -4,28 +4,21 @@
 	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
 	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:pi="http://schemas.microsoft.com/prototyping/2010/interactivity" xmlns:local="clr-namespace:BugTrackerScreens" x:Name="BugTrackerScreens_Screen_1_1_Name"
 	mc:Ignorable="d"
-	x:Class="BugTrackerScreens.Screen_1_1"
-	Width="761" Height="521">
+	x:Class="BugTrackerScreens.Bugs_manager"
+	Width="759" Height="507">
 
-	<Grid x:Name="LayoutRoot" Background="White" Style="{DynamicResource Layout}" DataContext="{Binding Source={StaticResource SampleDataSource}}">
+	<Grid x:Name="LayoutRoot" Background="White" DataContext="{Binding Source={StaticResource SampleDataSource}}">
 		<local:Screen_2 d:IsPrototypingComposition="True"/>
-		<TextBlock HorizontalAlignment="Left" Margin="122,22,0,0" Style="{DynamicResource TitleLeft-Sketch}" Text="Bugs overzicht" VerticalAlignment="Top"/>
-		<TextBlock HorizontalAlignment="Left" Margin="367,42.403,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Windows" VerticalAlignment="Top"/>
-		<Button Content="Rapportage maken" HorizontalAlignment="Left" Margin="471,482.536,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="145">
-			<i:Interaction.Triggers>
-				<i:EventTrigger EventName="Click">
-					<pi:NavigateToScreenAction TargetScreen="BugTrackerScreens.Screen_1_3"/>
-				</i:EventTrigger>
-			</i:Interaction.Triggers>
-		</Button>
-		<Button Content="&lt; Terug" HorizontalAlignment="Left" Margin="122,479.536,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="75">
+		<TextBlock HorizontalAlignment="Left" Margin="122,9,0,0" Style="{DynamicResource TitleLeft-Sketch}" Text="Uw bugoverzicht" VerticalAlignment="Top"/>
+		<TextBlock HorizontalAlignment="Left" Margin="367,29.403,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Windows" VerticalAlignment="Top"/>
+		<Button Content="&lt; Terug" HorizontalAlignment="Left" Margin="122,466.536,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="75">
 			<i:Interaction.Triggers>
 				<i:EventTrigger EventName="Click">
 					<pi:NavigateBackAction/>
 				</i:EventTrigger>
 			</i:Interaction.Triggers>
 		</Button>
-		<Button Content="Bug toevoegen" HorizontalAlignment="Left" Margin="621,482.536,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="121">
+		<Button Content="Bug toevoegen" HorizontalAlignment="Left" Margin="621,469.536,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="121">
 			<i:Interaction.Triggers>
 				<i:EventTrigger EventName="Click">
 					<pi:NavigateToScreenAction TargetScreen="BugTrackerScreens.Screen_1_2"/>
@@ -40,5 +33,12 @@
 				<DataGridTextColumn Header="Prioriteit" SortDirection="Descending" Binding="{Binding Prioriteit}" SortMemberPath="{Binding Prioriteit}" />
 			</DataGrid.Columns>
 		</DataGrid>
+		<Button Content="Rapportage maken" HorizontalAlignment="Left" Margin="471,469.536,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="145">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pi:NavigateToScreenAction TargetScreen="BugTrackerScreens.Screen_1_3"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
 	</Grid>
 </UserControl>

@@ -66,6 +66,9 @@
     <Compile Include="Bugs_Developer.xaml.cs">
       <DependentUpon>Bugs_Developer.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Bugs_manager.xaml.cs">
+      <DependentUpon>Bugs_manager.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ProductKiezer_manager.xaml.cs">
       <DependentUpon>ProductKiezer_manager.xaml</DependentUpon>
     </Compile>
@@ -101,6 +104,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Bugs_Developer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Bugs_manager.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

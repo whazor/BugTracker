@@ -14,11 +14,17 @@
 			<Button x:Name="___Button___Developer_" Content="Developer" Style="{DynamicResource Button-Sketch}" Width="534" Height="56.463">
 				<i:Interaction.Triggers>
 					<i:EventTrigger EventName="Click">
-						<pi:NavigateToScreenAction TargetScreen="BugTrackerScreens.Copy_of_Bugs_klant"/>
+						<pi:NavigateToScreenAction TargetScreen="BugTrackerScreens.ProductKiezer_developer"/>
 					</i:EventTrigger>
 				</i:Interaction.Triggers>
 			</Button>
-			<Button x:Name="___Button___Manager_" Content="Manager" Style="{DynamicResource Button-Sketch}" Width="534" Height="56.463"/>
+			<Button x:Name="___Button___Manager_" Content="Manager" Style="{DynamicResource Button-Sketch}" Width="534" Height="56.463">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="Click">
+						<pi:NavigateToScreenAction TargetScreen="BugTrackerScreens.Copy_of_ProductKiezer_developer"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</Button>
 			<Button x:Name="___Button___Klant_" Content="Klant" Style="{DynamicResource Button-Sketch}" Width="534" Height="56.463">
 				<i:Interaction.Triggers>
 					<i:EventTrigger EventName="Click">
