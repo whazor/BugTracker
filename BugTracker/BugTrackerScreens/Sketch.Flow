@@ -125,6 +125,30 @@
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>BugTrackerScreens.ProductKiezer_developer</ClassName>
+      <DisplayName>ProductKiezer_developer</DisplayName>
+      <FileName>ProductKiezer_developer.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>-236</X>
+        <Y>94</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>BugTrackerScreens.Copy_of_ProductKiezer_developer</ClassName>
+      <DisplayName>Productkiezer_manager</DisplayName>
+      <FileName>ProductKiezer_manager.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>-437</X>
+        <Y>136</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
   </Screens>
   <Connections>
     <Connection>
@@ -239,6 +263,41 @@
       <TransitionType>None</TransitionType>
       <VisualTag>1</VisualTag>
     </Connection>
+    <Connection>
+      <Source>BugTrackerScreens.ProductKiezer_developer</Source>
+      <Target>BugTrackerScreens.Screen_2</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BugTrackerScreens.ProductKiezer_developer</Source>
+      <Target>BugTrackerScreens.Copy_of_Bugs_klant</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BugTrackerScreens.Copy_of_ProductKiezer</Source>
+      <Target>BugTrackerScreens.ProductKiezer_developer</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BugTrackerScreens.Copy_of_ProductKiezer_developer</Source>
+      <Target>BugTrackerScreens.Screen_2</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BugTrackerScreens.Copy_of_ProductKiezer</Source>
+      <Target>BugTrackerScreens.Copy_of_ProductKiezer_developer</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
   </Connections>
   <PrototypeRevision>0</PrototypeRevision>
   <BrandingText>Microsoft SketchFlow Prototype</BrandingText>
@@ -284,10 +343,10 @@
     </VisualTag>
   </VisualTags>
   <ViewState>
-    <Zoom>0.75</Zoom>
+    <Zoom>0.66666666666666663</Zoom>
     <Center>
-      <X>65.452502083542925</X>
-      <Y>76.195238095238111</Y>
+      <X>110.48614817731908</X>
+      <Y>48.633333333333312</Y>
     </Center>
   </ViewState>
 </Data>
