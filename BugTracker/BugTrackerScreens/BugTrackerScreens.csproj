@@ -63,8 +63,8 @@
     <Compile Include="Bugs_Klant.xaml.cs">
       <DependentUpon>Bugs_Klant.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Copy_of_Bugs_klant.xaml.cs">
-      <DependentUpon>Copy_of_Bugs_klant.xaml</DependentUpon>
+    <Compile Include="Bugs_Developer.xaml.cs">
+      <DependentUpon>Bugs_Developer.xaml</DependentUpon>
     </Compile>
     <Compile Include="RolKiezer.xaml.cs">
       <DependentUpon>RolKiezer.xaml</DependentUpon>
@@ -87,13 +87,21 @@
     <Compile Include="Layout.xaml.cs">
       <DependentUpon>Layout.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SampleData\SampleDataSource\SampleDataSource.xaml.cs">
+      <DependentUpon>SampleDataSource.xaml</DependentUpon>
+    </Compile>
     <Page Include="Bugs_Klant.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Copy_of_Bugs_klant.xaml">
+    <Page Include="Bugs_Developer.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ProjectDataSources.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <ContainsDataSources>True</ContainsDataSources>
     </Page>
     <Page Include="RolKiezer.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -123,6 +131,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="SampleData\SampleDataSource\SampleDataSource.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="SketchStyles.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -135,6 +147,7 @@
     <Compile Include="..\Properties\Version.cs">
       <Link>Properties\Version.cs</Link>
     </Compile>
+    <DesignTimeOnly Include="SampleData\SampleDataSource\SampleDataSource.xsd" />
     <Resource Include="Sketch.Flow" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath32)\Microsoft.CSharp.targets" />

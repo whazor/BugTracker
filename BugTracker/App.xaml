@@ -8,6 +8,7 @@
 			<ResourceDictionary.MergedDictionaries>
 				<ResourceDictionary Source="/Microsoft.Expression.Prototyping.SketchControls;component/ScrollViewerStyles.xaml"/>
 				<ResourceDictionary Source="/BugTracker.Screens;component/SketchStyles.xaml"/>
+				<ResourceDictionary Source="/BugTracker.Screens;component/ProjectDataSources.xaml"/>
 			</ResourceDictionary.MergedDictionaries>
 			<Style x:Key="Layout" TargetType="{x:Type Grid}"/>
 		</ResourceDictionary>

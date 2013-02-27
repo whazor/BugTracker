@@ -9,12 +9,6 @@
 
 	<Grid x:Name="LayoutRoot" Background="White" Style="{DynamicResource Layout}">
 		<local:Screen_2 d:IsPrototypingComposition="True"/>
-		<DataGrid HorizontalAlignment="Left" Margin="122,76.393,0,0" VerticalAlignment="Top" Height="396" Width="620" IsSynchronizedWithCurrentItem="False">
-			<DataGrid.Columns>
-				<DataGridTextColumn Header="id"/>
-				<DataGridHyperlinkColumn Binding="{x:Null}" ContentBinding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Omschrijving"/>
-			</DataGrid.Columns>
-		</DataGrid>
 		<TextBlock HorizontalAlignment="Left" Margin="122,22,0,0" Style="{DynamicResource TitleLeft-Sketch}" Text="Bugs overzicht" VerticalAlignment="Top"/>
 		<TextBlock HorizontalAlignment="Left" Margin="367,42.403,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Windows" VerticalAlignment="Top"/>
 		<Button Content="Rapportage maken" HorizontalAlignment="Left" Margin="471,482.536,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="145">

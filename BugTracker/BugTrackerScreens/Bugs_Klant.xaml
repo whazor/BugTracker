@@ -7,13 +7,14 @@
 	x:Class="BugTrackerScreens.Copy_of_Bugs"
 	Width="759" Height="507">
 
-	<Grid x:Name="LayoutRoot" Background="White">
+	<Grid x:Name="LayoutRoot" Background="White" DataContext="{Binding Source={StaticResource SampleDataSource}}">
 		<local:Screen_2 d:IsPrototypingComposition="True"/>
-		<DataGrid HorizontalAlignment="Left" Margin="122,63.393,0,0" VerticalAlignment="Top" Height="396" Width="620" IsSynchronizedWithCurrentItem="False">
+		<DataGrid HorizontalAlignment="Left" Margin="122.667,63.393,0,0" VerticalAlignment="Top" Height="396" Width="620" ItemsSource="{Binding Collection}" AutoGenerateColumns="False">
+			
 			<DataGrid.Columns>
-				<DataGridTextColumn Header="id"/>
-				<DataGridHyperlinkColumn Binding="{x:Null}" ContentBinding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Omschrijving"/>
-				<DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Status"/>
+				<DataGridTextColumn Binding="{Binding ID}" Header="ID"/>
+				<DataGridTextColumn Header="Omschrijving" Binding="{Binding Omschrijving}"/>
+				<DataGridTextColumn Header="Prioriteit" SortDirection="Descending" Binding="{Binding Prioriteit}" SortMemberPath="{Binding Prioriteit}" />
 			</DataGrid.Columns>
 		</DataGrid>
 		<TextBlock HorizontalAlignment="Left" Margin="122,9,0,0" Style="{DynamicResource TitleLeft-Sketch}" Text="Uw bugoverzicht" VerticalAlignment="Top"/>

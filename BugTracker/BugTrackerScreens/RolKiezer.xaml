@@ -11,7 +11,13 @@
 		<local:Screen_2 d:IsPrototypingComposition="True"/>
 		<TextBlock HorizontalAlignment="Left" Margin="123,23.606,0,0" Style="{DynamicResource TitleLeft-Sketch}" VerticalAlignment="Top" Text="Welke rol heb je?"/>
 		<ListBox Margin="123,77.999,16,19.001" Style="{DynamicResource ListBox-Sketch}" RenderTransformOrigin="0.42,0.43">
-			<Button x:Name="___Button___Developer_" Content="Developer" Style="{DynamicResource Button-Sketch}" Width="534" Height="56.463"/>
+			<Button x:Name="___Button___Developer_" Content="Developer" Style="{DynamicResource Button-Sketch}" Width="534" Height="56.463">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="Click">
+						<pi:NavigateToScreenAction TargetScreen="BugTrackerScreens.Copy_of_Bugs_klant"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</Button>
 			<Button x:Name="___Button___Manager_" Content="Manager" Style="{DynamicResource Button-Sketch}" Width="534" Height="56.463"/>
 			<Button x:Name="___Button___Klant_" Content="Klant" Style="{DynamicResource Button-Sketch}" Width="534" Height="56.463">
 				<i:Interaction.Triggers>
