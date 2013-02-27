@@ -66,6 +66,12 @@
     <Compile Include="Bugs_Developer.xaml.cs">
       <DependentUpon>Bugs_Developer.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ProductKiezer_manager.xaml.cs">
+      <DependentUpon>ProductKiezer_manager.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ProductKiezer_developer.xaml.cs">
+      <DependentUpon>ProductKiezer_developer.xaml</DependentUpon>
+    </Compile>
     <Compile Include="RolKiezer.xaml.cs">
       <DependentUpon>RolKiezer.xaml</DependentUpon>
     </Compile>
@@ -102,6 +108,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
       <ContainsDataSources>True</ContainsDataSources>
+    </Page>
+    <Page Include="ProductKiezer_manager.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ProductKiezer_developer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="RolKiezer.xaml">
       <Generator>MSBuild:Compile</Generator>
