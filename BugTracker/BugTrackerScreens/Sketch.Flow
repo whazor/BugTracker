@@ -161,6 +161,18 @@
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>BugTrackerScreens.Screen_1_4</ClassName>
+      <DisplayName>phone</DisplayName>
+      <FileName>Screen_1_4.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>-589</X>
+        <Y>194</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
   </Screens>
   <Connections>
     <Connection>
@@ -392,8 +404,8 @@
   <ViewState>
     <Zoom>0.66666666666666663</Zoom>
     <Center>
-      <X>-8.2757803028781325</X>
-      <Y>85.892765151515192</Y>
+      <X>-282.16963141025707</X>
+      <Y>111.02288419913427</Y>
     </Center>
   </ViewState>
 </Data>
