@@ -16,28 +16,33 @@
 			<ColumnDefinition/>
 			<ColumnDefinition Width="0*"/>
 		</Grid.ColumnDefinitions>
-		<DataGrid HorizontalAlignment="Left" Margin="0,63.393,0,0" VerticalAlignment="Top" Height="396" Width="759" ItemsSource="{Binding Collection}" AutoGenerateColumns="False">
+		<DataGrid HorizontalAlignment="Left" Margin="0,63.392,0,0" VerticalAlignment="Top" Height="351" Width="759" ItemsSource="{Binding Collection}" AutoGenerateColumns="False" MinColumnWidth="29" RowHeight="35">
 			
 			<DataGrid.Columns>
 				<DataGridTextColumn Binding="{Binding ID}" Header="ID"/>
 				<DataGridTextColumn Header="Omschrijving" Binding="{Binding Omschrijving}"/>
-				<DataGridTextColumn Header="Prioriteit" SortDirection="Descending" Binding="{Binding Prioriteit}" SortMemberPath="{Binding Prioriteit}" />
-				<DataGridTextColumn Binding="{Binding Status}" Header="Status"/>
 			</DataGrid.Columns>
 		</DataGrid>
 		<TextBlock HorizontalAlignment="Left" Margin="10,8.999,0,0" Style="{DynamicResource TitleLeft-Sketch}" Text="Uw bugoverzicht" VerticalAlignment="Top" Height="49.393" Width="233.24"/>
 		<TextBlock HorizontalAlignment="Left" Margin="315.067,29.402,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Windows" VerticalAlignment="Top" RenderTransformOrigin="0.539,-0.665" Height="19.757" Width="51.03"/>
-		<Button Content="&lt; Terug" HorizontalAlignment="Left" Margin="0,469.536,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="759" Height="23.463">
+		<Button Content="&lt; Terug" HorizontalAlignment="Left" Margin="0,483.537,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="759" Height="23.463">
 			<i:Interaction.Triggers>
 				<i:EventTrigger EventName="Click">
 					<pi:NavigateBackAction/>
 				</i:EventTrigger>
 			</i:Interaction.Triggers>
 		</Button>
-		<Button Content="Bug toevoegen" HorizontalAlignment="Left" Margin="59.806,469.536,-180.806,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="121" Grid.Column="1" Height="23.463">
+		<Button Content="Rapportage maken" HorizontalAlignment="Left" Margin="0,455.072,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="759">
 			<i:Interaction.Triggers>
 				<i:EventTrigger EventName="Click">
-					<pi:NavigateToScreenAction TargetScreen="BugTrackerScreens.Screen_1_2"/>
+					<pi:NavigateToScreenAction TargetScreen="BugTrackerScreens.Screen_1_3"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+		<Button Content="Bug toevoegen" HorizontalAlignment="Left" Margin="0,426.609,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="759">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pi:NavigateToScreenAction TargetScreen="BugTrackerScreens.Copy_of_BugToevoegen"/>
 				</i:EventTrigger>
 			</i:Interaction.Triggers>
 		</Button>
