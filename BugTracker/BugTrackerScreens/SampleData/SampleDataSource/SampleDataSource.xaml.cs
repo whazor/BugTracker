@@ -105,41 +105,58 @@ namespace Expression.Blend.SampleData.SampleDataSource
 
 		private double _Prioriteit = 0;
 
-		public double Prioriteit
+		public string Prioriteit
 		{
 			get
 			{
-				return this._Prioriteit;
+                if (_Prioriteit <= 3)
+                {
+                    return "Hoog";
+                } 
+                return _Prioriteit <= 7 ? "Normaal" : "Laag";
 			}
 
 			set
 			{
-				if (this._Prioriteit != value)
-				{
-					this._Prioriteit = value;
-					this.OnPropertyChanged("Prioriteit");
-				}
+			    _Prioriteit = Double.Parse(value);
+				OnPropertyChanged("Prioriteit");
 			}
 		}
 
 		private double _Status = 0;
 
-		public double Status
-		{
-			get
-			{
-				return this._Status;
-			}
+	    public string Status
+	    {
+	        get
+	        {
 
-			set
-			{
-				if (this._Status != value)
-				{
-					this._Status = value;
-					this.OnPropertyChanged("Status");
-				}
-			}
-		}
+	            // won't fix
+	            // open
+	            // closed
+	            // fixed
+	            // assigned
+	            if (_Status <= 2)
+	            {
+	                return "won't fix";
+	            }
+	            if (_Status <= 4)
+	            {
+	                return "open";
+	            }
+	            if (_Status <= 6)
+	            {
+	                return "closed";
+	            }
+
+	            return _Status <= 8 ? "fixed" : "assigned";
+	        }
+
+	        set
+	        {
+	            _Status = Double.Parse(value);
+	            OnPropertyChanged("Status");
+	        }
+	    }
 	}
 #endif
 }

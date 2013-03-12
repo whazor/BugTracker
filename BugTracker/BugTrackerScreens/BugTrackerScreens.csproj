@@ -99,6 +99,9 @@
     <Compile Include="SampleData\SampleDataSource\SampleDataSource.xaml.cs">
       <DependentUpon>SampleDataSource.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Screen_1_4.xaml.cs">
+      <DependentUpon>Screen_1_4.xaml</DependentUpon>
+    </Compile>
     <Page Include="Bugs_Klant.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -153,6 +156,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="SampleData\SampleDataSource\SampleDataSource.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Screen_1_4.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
