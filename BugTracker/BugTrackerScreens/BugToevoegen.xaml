@@ -28,5 +28,19 @@
 		<ComboBox HorizontalAlignment="Left" Margin="300,293.756,0,0" Style="{DynamicResource ComboBox-Sketch}" VerticalAlignment="Top" Width="120"/>
 		<ComboBox HorizontalAlignment="Left" Margin="465,293.756,0,0" Style="{DynamicResource ComboBox-Sketch}" VerticalAlignment="Top" Width="142"/>
 		<Button Content="Aanmaken" HorizontalAlignment="Left" Margin="502,335.537,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="105" Height="30.463"/>
+		<Button Content="Rapportage maken" HorizontalAlignment="Left" Margin="471,482.536,0,-124" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="145">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pi:NavigateToScreenAction TargetScreen="BugTrackerScreens.Screen_1_3"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+		<Button Content="Bug toevoegen" HorizontalAlignment="Left" Margin="621,482.536,-121,-124" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="121">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pi:NavigateToScreenAction TargetScreen="BugTrackerScreens.Screen_1_2"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
 	</Grid>
 </UserControl>

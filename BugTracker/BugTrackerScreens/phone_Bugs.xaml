@@ -35,7 +35,7 @@
 		<Button Content="Rapportage maken" HorizontalAlignment="Left" Margin="0,455.072,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="759">
 			<i:Interaction.Triggers>
 				<i:EventTrigger EventName="Click">
-					<pi:NavigateToScreenAction TargetScreen="BugTrackerScreens.Screen_1_3"/>
+					<pi:NavigateToScreenAction TargetScreen="BugTrackerScreens.Copy_of_BugToevoegen"/>
 				</i:EventTrigger>
 			</i:Interaction.Triggers>
 		</Button>

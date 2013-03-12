@@ -189,11 +189,37 @@
       <Type>Navigation</Type>
       <ClassName>BugTrackerScreens.Copy_of_BugToevoegen</ClassName>
       <DisplayName>phone_BugToevoegen</DisplayName>
-      <FileName>Copy_of_BugToevoegen.xaml</FileName>
+      <FileName>phone_BugToevoegen.xaml</FileName>
       <Annotations />
       <Position>
-        <X>-140</X>
-        <Y>256</Y>
+        <X>-119</X>
+        <Y>258</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>BugTrackerScreens.Copy_of_RapportageBouwen</ClassName>
+      <DisplayName>phone_RapportageBouwen</DisplayName>
+      <FileName>phone_RapportageBouwen.xaml</FileName>
+      <Annotations>
+        <Annotation>
+          <Id />
+          <Text>Verbetering op basis van feedback:
+
+- Zoektermveld toegevoegd</Text>
+          <Top>103.649</Top>
+          <Left>464.796</Left>
+          <Author>Nanne</Author>
+          <AuthorInitials>NW</AuthorInitials>
+          <SerialNumber>1</SerialNumber>
+          <VisibleAtRuntime>true</VisibleAtRuntime>
+          <TimeStamp>2013-02-26T17:50:20</TimeStamp>
+        </Annotation>
+      </Annotations>
+      <Position>
+        <X>-258</X>
+        <Y>297</Y>
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
@@ -389,21 +415,7 @@
       <VisualTag>0</VisualTag>
     </Connection>
     <Connection>
-      <Source>BugTrackerScreens.Copy_of_Bugs_klant_1</Source>
-      <Target>BugTrackerScreens.Screen_1_3</Target>
-      <Type>Navigation</Type>
-      <TransitionType>Fade</TransitionType>
-      <VisualTag>0</VisualTag>
-    </Connection>
-    <Connection>
       <Source>BugTrackerScreens.Screen_1_2</Source>
-      <Target>BugTrackerScreens.Screen_1_3</Target>
-      <Type>Navigation</Type>
-      <TransitionType>Fade</TransitionType>
-      <VisualTag>0</VisualTag>
-    </Connection>
-    <Connection>
-      <Source>BugTrackerScreens.Copy_of_BugToevoegen</Source>
       <Target>BugTrackerScreens.Screen_1_3</Target>
       <Type>Navigation</Type>
       <TransitionType>Fade</TransitionType>
@@ -419,6 +431,13 @@
     <Connection>
       <Source>BugTrackerScreens.Copy_of_Bugs_klant_1</Source>
       <Target>BugTrackerScreens.Copy_of_BugToevoegen</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BugTrackerScreens.Copy_of_Bugs_klant_1</Source>
+      <Target>BugTrackerScreens.Copy_of_RapportageBouwen</Target>
       <Type>Navigation</Type>
       <TransitionType>Fade</TransitionType>
       <VisualTag>0</VisualTag>
@@ -468,10 +487,10 @@
     </VisualTag>
   </VisualTags>
   <ViewState>
-    <Zoom>0.83333333333333337</Zoom>
+    <Zoom>0.66666666666666663</Zoom>
     <Center>
-      <X>-264.60876107225914</X>
-      <Y>268.12061056998567</Y>
+      <X>-312.98247055390772</X>
+      <Y>186.71040606962461</Y>
     </Center>
   </ViewState>
 </Data>

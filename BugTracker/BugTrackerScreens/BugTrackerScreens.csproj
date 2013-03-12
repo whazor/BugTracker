@@ -70,8 +70,11 @@
     <Compile Include="Bugs_manager.xaml.cs">
       <DependentUpon>Bugs_manager.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Copy_of_BugToevoegen.xaml.cs">
-      <DependentUpon>Copy_of_BugToevoegen.xaml</DependentUpon>
+    <Compile Include="phone_BugToevoegen.xaml.cs">
+      <DependentUpon>phone_BugToevoegen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="phone_RapportageBouwen.xaml.cs">
+      <DependentUpon>phone_RapportageBouwen.xaml</DependentUpon>
     </Compile>
     <Compile Include="phone_Bugs.xaml.cs">
       <DependentUpon>phone_Bugs.xaml</DependentUpon>
@@ -121,7 +124,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Copy_of_BugToevoegen.xaml">
+    <Page Include="phone_BugToevoegen.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="phone_RapportageBouwen.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
