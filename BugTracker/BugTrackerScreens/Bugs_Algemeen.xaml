@@ -10,7 +10,7 @@
 	<Grid x:Name="LayoutRoot" Background="White" Style="{DynamicResource Layout}" DataContext="{Binding Source={StaticResource SampleDataSource}}">
 		<local:Screen_2 d:IsPrototypingComposition="True"/>
 		<TextBlock HorizontalAlignment="Left" Margin="122,22,0,0" Style="{DynamicResource TitleLeft-Sketch}" Text="Bugs overzicht" VerticalAlignment="Top"/>
-		<TextBlock HorizontalAlignment="Left" Margin="367,42.403,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Windows" VerticalAlignment="Top"/>
+		<TextBlock HorizontalAlignment="Left" Margin="383,38.636,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Windows" VerticalAlignment="Top"/>
 		<Button Content="Rapportage maken" HorizontalAlignment="Left" Margin="471,482.536,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="145">
 			<i:Interaction.Triggers>
 				<i:EventTrigger EventName="Click">

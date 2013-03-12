@@ -163,13 +163,37 @@
     </Screen>
     <Screen>
       <Type>Navigation</Type>
-      <ClassName>BugTrackerScreens.Screen_1_4</ClassName>
-      <DisplayName>phone</DisplayName>
-      <FileName>Screen_1_4.xaml</FileName>
+      <ClassName>BugTrackerScreens.Copy_of_Productkiezer_manager</ClassName>
+      <DisplayName>phone_Productkiezer</DisplayName>
+      <FileName>phone_Productkiezer.xaml</FileName>
       <Annotations />
       <Position>
-        <X>-589</X>
-        <Y>194</Y>
+        <X>-755</X>
+        <Y>195</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>BugTrackerScreens.Copy_of_Bugs_klant_1</ClassName>
+      <DisplayName>phone_Bugs</DisplayName>
+      <FileName>phone_Bugs.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>-464</X>
+        <Y>243</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>BugTrackerScreens.Copy_of_BugToevoegen</ClassName>
+      <DisplayName>phone_BugToevoegen</DisplayName>
+      <FileName>Copy_of_BugToevoegen.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>-140</X>
+        <Y>256</Y>
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
@@ -357,6 +381,48 @@
       <TransitionType>Fade</TransitionType>
       <VisualTag>0</VisualTag>
     </Connection>
+    <Connection>
+      <Source>BugTrackerScreens.Copy_of_Productkiezer_manager</Source>
+      <Target>BugTrackerScreens.Copy_of_Bugs_klant_1</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BugTrackerScreens.Copy_of_Bugs_klant_1</Source>
+      <Target>BugTrackerScreens.Screen_1_3</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BugTrackerScreens.Screen_1_2</Source>
+      <Target>BugTrackerScreens.Screen_1_3</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BugTrackerScreens.Copy_of_BugToevoegen</Source>
+      <Target>BugTrackerScreens.Screen_1_3</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BugTrackerScreens.Copy_of_BugToevoegen</Source>
+      <Target>BugTrackerScreens.Screen_1_2</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>BugTrackerScreens.Copy_of_Bugs_klant_1</Source>
+      <Target>BugTrackerScreens.Copy_of_BugToevoegen</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
   </Connections>
   <PrototypeRevision>0</PrototypeRevision>
   <BrandingText>Microsoft SketchFlow Prototype</BrandingText>
@@ -402,10 +468,10 @@
     </VisualTag>
   </VisualTags>
   <ViewState>
-    <Zoom>0.66666666666666663</Zoom>
+    <Zoom>0.83333333333333337</Zoom>
     <Center>
-      <X>-282.16963141025707</X>
-      <Y>111.02288419913427</Y>
+      <X>-264.60876107225914</X>
+      <Y>268.12061056998567</Y>
     </Center>
   </ViewState>
 </Data>
