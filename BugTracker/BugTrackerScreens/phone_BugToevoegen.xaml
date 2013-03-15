@@ -25,14 +25,6 @@
 		<TextBlock HorizontalAlignment="Left" Margin="423,255,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Prioriteit:" VerticalAlignment="Top" RenderTransformOrigin="0.607,10.731" Width="65.523"/>
 		<ComboBox HorizontalAlignment="Left" Margin="10,279.756,0,0" Style="{DynamicResource ComboBox-Sketch}" VerticalAlignment="Top" Width="198"/>
 		<Button Content="Aanmaken" HorizontalAlignment="Left" Margin="310.521,350.695,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="310" Height="30.463"/>
-		<Button Content="Rapportage maken" HorizontalAlignment="Left" Margin="471,482.536,0,-124" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="145"/>
-		<Button Content="Bug toevoegen" HorizontalAlignment="Left" Margin="621,482.536,-121,-124" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="121">
-			<i:Interaction.Triggers>
-				<i:EventTrigger EventName="Click">
-					<pi:NavigateToScreenAction TargetScreen="BugTrackerScreens.Screen_1_2"/>
-				</i:EventTrigger>
-			</i:Interaction.Triggers>
-		</Button>
 		<ComboBox HorizontalAlignment="Left" Margin="220,279.756,0,0" Style="{DynamicResource ComboBox-Sketch}" VerticalAlignment="Top" Width="198"/>
 		<ComboBox HorizontalAlignment="Left" Margin="423,279.756,0,0" Style="{DynamicResource ComboBox-Sketch}" VerticalAlignment="Top" Width="198"/>
 	</Grid>
