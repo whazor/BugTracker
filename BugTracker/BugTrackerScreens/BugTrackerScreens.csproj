@@ -189,6 +189,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Screen_1_4.xaml">
+	      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Simple Styles.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
