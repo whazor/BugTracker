@@ -16,9 +16,7 @@
 				</i:EventTrigger>
 			</i:Interaction.Triggers>
 		</Button>
-		<TextBox HorizontalAlignment="Left" Height="23" Margin="0,97,0,0" Style="{DynamicResource TextBox-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" Width="621"/>
 		<TextBlock HorizontalAlignment="Left" Margin="10,72.243,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Titel:" VerticalAlignment="Top" RenderTransformOrigin="0.607,10.731"/>
-		<TextBox HorizontalAlignment="Left" Height="99" Margin="0,151,0,0" Style="{DynamicResource TextBox-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" Width="621"/>
 		<TextBlock HorizontalAlignment="Left" Margin="10,125,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Omschrijving:" VerticalAlignment="Top"/>
 		<TextBlock HorizontalAlignment="Left" Margin="10,255,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Type:" VerticalAlignment="Top" RenderTransformOrigin="0.607,10.731" Width="34.523"/>
 		<TextBlock HorizontalAlignment="Left" Margin="220,255,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Versie:" VerticalAlignment="Top" RenderTransformOrigin="0.607,10.731" Width="65.523"/>
@@ -27,5 +25,7 @@
 		<Button Content="Aanmaken" HorizontalAlignment="Left" Margin="310.521,350.695,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="310" Height="30.463"/>
 		<ComboBox HorizontalAlignment="Left" Margin="220,279.756,0,0" Style="{DynamicResource ComboBox-Sketch}" VerticalAlignment="Top" Width="198"/>
 		<ComboBox HorizontalAlignment="Left" Margin="423,279.756,0,0" Style="{DynamicResource ComboBox-Sketch}" VerticalAlignment="Top" Width="198"/>
+		<TextBox HorizontalAlignment="Left" Height="85.687" Margin="10,149.757,0,0" Style="{DynamicResource TextBox-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" Width="601"/>
+		<TextBox HorizontalAlignment="Left" Height="23" Margin="10,97,0,0" Style="{DynamicResource TextBox-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" Width="601" BorderThickness="2" Background="White"/>
 	</Grid>
 </UserControl>
