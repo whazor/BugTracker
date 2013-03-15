@@ -1,0 +1,31 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:pi="http://schemas.microsoft.com/prototyping/2010/interactivity" xmlns:local="clr-namespace:BugTrackerScreens" x:Name="BugTrackerScreens_Screen_1_2_Name"
+	mc:Ignorable="d"
+	x:Class="BugTrackerScreens.Copy_of_BugToevoegen"
+	Width="621" Height="382">
+
+	<Grid x:Name="LayoutRoot" Background="White" Style="{DynamicResource Layout}">
+		<TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Style="{DynamicResource TitleLeft-Sketch}" Text="Bug toevoegen" VerticalAlignment="Top"/>
+		<Button Content="&lt; Terug" HorizontalAlignment="Left" Margin="0,350.695,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="310" Height="30.463">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pi:NavigateBackAction/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+		<TextBlock HorizontalAlignment="Left" Margin="10,72.243,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Titel:" VerticalAlignment="Top" RenderTransformOrigin="0.607,10.731"/>
+		<TextBlock HorizontalAlignment="Left" Margin="10,125,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Omschrijving:" VerticalAlignment="Top"/>
+		<TextBlock HorizontalAlignment="Left" Margin="10,255,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Type:" VerticalAlignment="Top" RenderTransformOrigin="0.607,10.731" Width="34.523"/>
+		<TextBlock HorizontalAlignment="Left" Margin="220,255,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Versie:" VerticalAlignment="Top" RenderTransformOrigin="0.607,10.731" Width="65.523"/>
+		<TextBlock HorizontalAlignment="Left" Margin="423,255,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Prioriteit:" VerticalAlignment="Top" RenderTransformOrigin="0.607,10.731" Width="65.523"/>
+		<ComboBox HorizontalAlignment="Left" Margin="10,279.756,0,0" Style="{DynamicResource ComboBox-Sketch}" VerticalAlignment="Top" Width="198"/>
+		<Button Content="Aanmaken" HorizontalAlignment="Left" Margin="310.521,350.695,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="310" Height="30.463"/>
+		<ComboBox HorizontalAlignment="Left" Margin="220,279.756,0,0" Style="{DynamicResource ComboBox-Sketch}" VerticalAlignment="Top" Width="198"/>
+		<ComboBox HorizontalAlignment="Left" Margin="423,279.756,0,0" Style="{DynamicResource ComboBox-Sketch}" VerticalAlignment="Top" Width="198"/>
+		<TextBox HorizontalAlignment="Left" Height="85.687" Margin="10,149.757,0,0" Style="{DynamicResource TextBox-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" Width="601"/>
+		<TextBox HorizontalAlignment="Left" Height="23" Margin="10,97,0,0" Style="{DynamicResource TextBox-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" Width="601" BorderThickness="2" Background="White"/>
+	</Grid>
+</UserControl>

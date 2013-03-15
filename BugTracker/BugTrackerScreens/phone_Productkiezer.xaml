@@ -1,0 +1,43 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:pi="http://schemas.microsoft.com/prototyping/2010/interactivity" xmlns:local="clr-namespace:BugTrackerScreens" x:Name="BugTrackerScreens_Screen_1_Name"
+	mc:Ignorable="d"
+	x:Class="BugTrackerScreens.Copy_of_Productkiezer_manager"
+	Width="688" Height="442">
+
+	<Grid x:Name="LayoutRoot" Background="White">
+		<TextBlock HorizontalAlignment="Left" Margin="10,27.346,0,0" Style="{DynamicResource TitleLeft-Sketch}" Text="Product kiezen" VerticalAlignment="Top"/>
+		<ListBox Margin="0,96.711,0,40.463" Style="{DynamicResource ListBox-Sketch}" RenderTransformOrigin="0.42,0.43">
+			<Button Content="Windows" Style="{DynamicResource Button-Sketch}" Width="678" Height="56.463">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="Click">
+						<pi:NavigateToScreenAction TargetScreen="BugTrackerScreens.Copy_of_Bugs_klant_1"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</Button>
+			<Button Content="Office" Style="{DynamicResource Button-Sketch}" Width="678" Height="56.463">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="Click">
+						<pi:NavigateToScreenAction TargetScreen="BugTrackerScreens.Copy_of_Bugs_klant_1"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</Button>
+			<Button Content="Visual Studio" Style="{DynamicResource Button-Sketch}" Width="678" Height="56.463">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="Click">
+						<pi:NavigateToScreenAction TargetScreen="BugTrackerScreens.Copy_of_Bugs_klant_1"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</Button>
+		</ListBox>
+		<Button Content="&lt; Terug" HorizontalAlignment="Left" Margin="0,0,0,10" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Bottom" Width="688" Height="30.463">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pi:NavigateBackAction/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+	</Grid>
+</UserControl>

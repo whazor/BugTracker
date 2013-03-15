@@ -33,6 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Expression.Drawing" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -68,6 +69,18 @@
     </Compile>
     <Compile Include="Bugs_manager.xaml.cs">
       <DependentUpon>Bugs_manager.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="phone_BugToevoegen.xaml.cs">
+      <DependentUpon>phone_BugToevoegen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="phone_RapportageBouwen.xaml.cs">
+      <DependentUpon>phone_RapportageBouwen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="phone_Bugs.xaml.cs">
+      <DependentUpon>phone_Bugs.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="phone_Productkiezer.xaml.cs">
+      <DependentUpon>phone_Productkiezer.xaml</DependentUpon>
     </Compile>
     <Compile Include="ProductKiezer_manager.xaml.cs">
       <DependentUpon>ProductKiezer_manager.xaml</DependentUpon>
@@ -111,6 +124,22 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Bugs_manager.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="phone_BugToevoegen.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="phone_RapportageBouwen.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="phone_Bugs.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="phone_Productkiezer.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -160,6 +189,7 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Screen_1_4.xaml">
+    <Page Include="Simple Styles.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
