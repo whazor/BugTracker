@@ -9,8 +9,8 @@
 
 	<Grid x:Name="LayoutRoot" Background="White" Style="{DynamicResource Layout}" DataContext="{Binding Source={StaticResource SampleDataSource}}">
 		<local:Screen_2 d:IsPrototypingComposition="True"/>
-		<TextBlock HorizontalAlignment="Left" Margin="122,22,0,0" Style="{DynamicResource TitleLeft-Sketch}" Text="Bugs overzicht" VerticalAlignment="Top"/>
-		<TextBlock HorizontalAlignment="Left" Margin="383,38.636,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Windows" VerticalAlignment="Top"/>
+		<TextBlock HorizontalAlignment="Left" Margin="122,22,0,0" Style="{DynamicResource TitleLeft-Sketch}" Text="Bugs overzicht" VerticalAlignment="Top" Width="274.153"/>
+		<TextBlock HorizontalAlignment="Left" Margin="471,38.636,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Windows" VerticalAlignment="Top" Width="80.03"/>
 		<Button Content="Rapportage maken" HorizontalAlignment="Left" Margin="471,482.536,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="145">
 			<i:Interaction.Triggers>
 				<i:EventTrigger EventName="Click">
@@ -32,7 +32,7 @@
 				</i:EventTrigger>
 			</i:Interaction.Triggers>
 		</Button>
-		<DataGrid HorizontalAlignment="Left" Margin="122.667,63.393,0,0" VerticalAlignment="Top" Height="396" Width="620" ItemsSource="{Binding Collection}" AutoGenerateColumns="False">
+		<DataGrid HorizontalAlignment="Left" Margin="122,71.393,0,0" VerticalAlignment="Top" Height="396" Width="620" ItemsSource="{Binding Collection}" AutoGenerateColumns="False">
 			
 			<DataGrid.Columns>
 				<DataGridTextColumn Binding="{Binding ID}" Header="ID"/>

@@ -23,8 +23,8 @@
 				<DataGridTextColumn Header="Omschrijving" Binding="{Binding Omschrijving}"/>
 			</DataGrid.Columns>
 		</DataGrid>
-		<TextBlock HorizontalAlignment="Left" Margin="10,8.999,0,0" Style="{DynamicResource TitleLeft-Sketch}" Text="Uw bugoverzicht" VerticalAlignment="Top" Height="49.393" Width="233.24"/>
-		<TextBlock HorizontalAlignment="Left" Margin="315.067,29.402,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Windows" VerticalAlignment="Top" RenderTransformOrigin="0.539,-0.665" Height="19.757" Width="51.03"/>
+		<TextBlock HorizontalAlignment="Left" Margin="10,8.999,0,0" Style="{DynamicResource TitleLeft-Sketch}" Text="Uw bugoverzicht" VerticalAlignment="Top" Height="49.393" Width="297.74"/>
+		<TextBlock HorizontalAlignment="Left" Margin="380,29.402,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Windows" VerticalAlignment="Top" RenderTransformOrigin="0.539,-0.665" Height="19.757" Width="82.53"/>
 		<Button Content="&lt; Terug" HorizontalAlignment="Left" Margin="0,483.537,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="759" Height="23.463">
 			<i:Interaction.Triggers>
 				<i:EventTrigger EventName="Click">
