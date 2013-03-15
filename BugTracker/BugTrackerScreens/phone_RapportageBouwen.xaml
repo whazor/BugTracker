@@ -2,7 +2,7 @@
 	x:Class="BugTrackerScreens.Copy_of_RapportageBouwen" Height="335.302" Width="554.14" mc:Ignorable="d Anno">
 
 	<Grid Background="{DynamicResource BaseBackground-Sketch}">
-		<TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Style="{DynamicResource TitleLeft-Sketch}" VerticalAlignment="Top" Height="49.393" Width="262.63"><Run Text="Rapportage maken"/></TextBlock>
+		<TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Style="{DynamicResource TitleLeft-Sketch}" VerticalAlignment="Top" Height="49.393" Width="448.63"><Run Text="Rapportage maken"/></TextBlock>
 		<Button Content="Genereren" HorizontalAlignment="Left" Margin="0,273.375,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="554.14" Height="23.464" RenderTransformOrigin="0.622,-6.203"/>
 		<Button Content="&lt; Terug" HorizontalAlignment="Left" Margin="0,301.839,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="554.14" Height="23.463">
 			<i:Interaction.Triggers>
@@ -11,10 +11,10 @@
 				</i:EventTrigger>
 			</i:Interaction.Triggers>
 		</Button>
-		<TextBlock HorizontalAlignment="Left" Margin="267.593,118.467,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Versie:" VerticalAlignment="Top" Height="19.757" Width="39.183"/>
-		<TextBlock HorizontalAlignment="Left" Margin="10,118.467,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Prioriteit:" VerticalAlignment="Top" Height="19.757" Width="66.183"/>
+		<TextBlock HorizontalAlignment="Left" Margin="267.593,118.467,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Versie:" VerticalAlignment="Top" Height="19.757" Width="78.183"/>
+		<TextBlock HorizontalAlignment="Left" Margin="10,118.467,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Prioriteit:" VerticalAlignment="Top" Height="19.757" Width="124.183"/>
 		<ComboBox HorizontalAlignment="Left" Margin="0,143.224,0,0" Style="{DynamicResource ComboBox-Sketch}" VerticalAlignment="Top" Width="172.69" Height="29.463"/>
-		<TextBlock HorizontalAlignment="Left" Margin="10,69.393,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Zoekterm:" VerticalAlignment="Top" Height="19.757" Width="58.327"/>
+		<TextBlock HorizontalAlignment="Left" Margin="10,69.393,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Zoekterm:" VerticalAlignment="Top" Height="19.757" Width="110.327"/>
 		<TextBox HorizontalAlignment="Left" Height="25" Margin="2.144,89.15,0,0" Style="{DynamicResource TextBox-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" Width="551.996"/>
 		<ComboBox HorizontalAlignment="Left" Margin="267.593,143.224,0,0" Style="{DynamicResource ComboBox-Sketch}" VerticalAlignment="Top" Width="172.69" Height="29.463"/>
 		<ComboBox HorizontalAlignment="Left" Margin="0,209.931,0,0" Style="{DynamicResource ComboBox-Sketch}" VerticalAlignment="Top" Width="554.14" Height="29.463"/>
